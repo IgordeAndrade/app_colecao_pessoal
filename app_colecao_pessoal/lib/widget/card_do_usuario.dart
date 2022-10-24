@@ -5,6 +5,7 @@ import '../profile/models/usuario.dart';
 import 'package:intl/intl.dart';
 
 // ignore: must_be_immutable
+//TODO: A classe abaixho não é utilizada.
 class CardDoUsuario extends StatelessWidget {
   CardDoUsuario({super.key, this.usuario});
 

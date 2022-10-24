@@ -30,6 +30,8 @@ class _MeuAppState extends State<MeuApp> {
             themeMode: ThemeMode.light,
             home: const PaginaNavegacao(),
             routes: {
+              //TODO: Na Xports escrevemos tudo em inglês, exceto as strings que aparecem na UI.
+              //TODO: Rotas nomeadas pouco usadas.
               '/PaginaNavegacao': (context) => const PaginaNavegacao(),
               '/PaginaInicial': (context) => const PaginaInicial(),
               '/PaginaAddFilme': (context) => const PaginaAddFilme(),
@@ -37,6 +39,7 @@ class _MeuAppState extends State<MeuApp> {
               '/PaginaListaDeFilmes': (context) => const PaginaListaDeFilmes(),
               '/PaginaListaDeLivros': (context) => const PaginaListaDeLivros(),
               '/PaginaConteudoDoFilme': (context) => PaginaConteudoDoFilme(),
+              //TODO: A página abaixo não é chamada em lugar algum
               '/PaginaDoUsuario': (context) => CardDoUsuario(),
             },
           );

@@ -28,6 +28,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
           centerTitle: true,
           title: const Text('Minha Coleção'),
         ),
+        // TODO: O drawer deveria estar isolado.
         drawer: Drawer(
           // Adicionar no Drawer os dados do usuário para uma visualizaçao rapida
           child: Padding(
@@ -39,6 +40,8 @@ class _PaginaInicialState extends State<PaginaInicial> {
                   height: MediaQuery.of(context).size.height * 0.40,
                   width: double.infinity,
                   child: Column(
+                    //TODO: Na Xports isolaríamos as informações abaixo num widget separado e
+                    // deixaríamos os dados dinâmicos (sem mockar os valores aqui).
                     children: [
                       Container(
                         margin: const EdgeInsets.only(top: 20, bottom: 20),
@@ -58,6 +61,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Nome: '),
                             SizedBox(
                               width: 40,
@@ -71,6 +75,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Data de nascimento: '),
                             SizedBox(
                               width: 40,
@@ -84,6 +89,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Genero filme favorito: '),
                             SizedBox(
                               width: 40,
@@ -97,6 +103,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Genero livro favorito: '),
                             SizedBox(
                               width: 40,
@@ -110,6 +117,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Diretor favorito: '),
                             SizedBox(
                               width: 40,
@@ -123,6 +131,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
+                            //TODO: Espaço após ":" desnecessário
                             Text('Autor favorito: '),
                             SizedBox(
                               width: 40,

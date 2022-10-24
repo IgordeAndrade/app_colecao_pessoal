@@ -41,6 +41,7 @@ class ItemDaListaFilme extends StatelessWidget {
                 borderRadius: BorderRadius.circular(4),
                 icon: Icons.delete,
                 label: 'Apagar',
+                // TODO: Cast desnecessário. Poderia ser usada a forma "Colors.red.shade300"
                 backgroundColor: Colors.red[200] as Color,
                 onPressed: (context) {
                   removerFilme(filme);
@@ -75,6 +76,7 @@ class ItemDaListaFilme extends StatelessWidget {
                   const Divider(
                     color: Colors.blue,
                   ),
+                  //TODO: Comentário desnecessário.
                   // SizedBox(width: 100, child: ,)
                   Padding(
                     padding: const EdgeInsets.all(5),

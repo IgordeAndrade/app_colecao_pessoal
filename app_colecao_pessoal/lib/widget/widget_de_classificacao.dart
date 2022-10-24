@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Isolamento bem feito.
+
 class WidgetDeClassificacao extends StatefulWidget {
   const WidgetDeClassificacao(
       {super.key,

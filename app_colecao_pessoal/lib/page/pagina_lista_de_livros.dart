@@ -74,6 +74,7 @@ class _PaginaListaDeLivrosState extends State<PaginaListaDeLivros> {
               const Padding(
                 padding: EdgeInsets.only(left: 16, right: 16),
                 child: TextField(
+                  //TODO: Espaço após ":" desnecessário.
                   decoration: InputDecoration(labelText: 'Pesquisar: '),
                 ),
               ),

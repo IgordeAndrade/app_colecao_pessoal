@@ -28,6 +28,8 @@ class _PaginaAddFilmeState extends State<PaginaAddFilme> {
   final DateTime _data = DateTime.now();
   final TextEditingController _produtoraController = TextEditingController();
   final TextEditingController _sinopseController = TextEditingController();
+  // TODO: Pelo o que entendi, as variáveis abaixo não deveriam ser "nullable" 
+  // mas deveriam ser inicializadas como vazias.
   String? _genero;
   int? _classificacao;
 
@@ -57,6 +59,7 @@ class _PaginaAddFilmeState extends State<PaginaAddFilme> {
     );
   }
 
+  // TODO: Os campos poderiam ter sido isolados em classes diferentes.
   @override
   Widget build(BuildContext context) {
     return SafeArea(

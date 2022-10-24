@@ -78,6 +78,7 @@ class ItemDaListaLivro extends StatelessWidget {
                   const Divider(
                     color: Colors.blue,
                   ),
+                  // TODO: Comentário abaixo desnecessário.
                   // SizedBox(width: 100, child: ,)
                   Padding(
                     padding: const EdgeInsets.all(5),

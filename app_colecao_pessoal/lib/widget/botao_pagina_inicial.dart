@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// TODO: O isolamento está bom, mas o nome da classe não. O nome passa a impressão de ser o botão 
+// que leva para a HomePage
 class BotaoPaginaInicial extends StatelessWidget {
   const BotaoPaginaInicial({
     super.key,

@@ -16,6 +16,7 @@ class PaginaListaDeFilmes extends StatefulWidget {
 class _MinhaListaDeFilmesState extends State<PaginaListaDeFilmes> {
   final Repositorio repositorioDeFilmes = Repositorio();
   List<Filme> filmes = [];
+  // TODO: Variável não usada
   List<Filme> pontuacao = [];
 
   Filme? itemDeletado;
@@ -156,6 +157,7 @@ class _MinhaListaDeFilmesState extends State<PaginaListaDeFilmes> {
   }
 
   void removerItem(Filme item) {
+    // TODO: A variável "itemDeletado" não é necessária. Aqui caberia o método .remove().
     itemDeletado = item;
     posicaoItem = filmes.indexOf(item);
 

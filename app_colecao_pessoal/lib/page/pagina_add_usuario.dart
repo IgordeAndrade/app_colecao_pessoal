@@ -57,6 +57,8 @@ class _PaginaAddUsuarioState extends State<PaginaAddUsuario> {
     }
   }
 
+  //TODO: Comentários com "onChanged" são desnecessários.
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -153,6 +155,7 @@ class _PaginaAddUsuarioState extends State<PaginaAddUsuario> {
                       ),
                       BotaoDeTexto(
                         tirulo: 'Adicionar usuário',
+                        //TODO: função vazia desnecessária.
                         aoPressionar: () {},
                       ),
                     ],

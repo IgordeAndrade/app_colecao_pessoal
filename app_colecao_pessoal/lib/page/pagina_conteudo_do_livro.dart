@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../profile/models/livro.dart';
 
+//TODO: Idem a observação em pagina_conteudo_do_filme.dart
+
 class PaginaConteudoDoLivro extends StatelessWidget {
   const PaginaConteudoDoLivro({super.key, required this.livro});
 

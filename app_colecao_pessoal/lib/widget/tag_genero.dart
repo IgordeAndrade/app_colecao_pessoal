@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Isolamento bem feito.
+
 // ignore: must_be_immutable
 class TagGenero extends StatefulWidget {
   TagGenero({super.key, required this.genero, required this.aoPessionar});

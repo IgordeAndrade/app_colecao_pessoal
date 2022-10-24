@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Isolamento bem feito.
+
 class CardDoCarrossel extends StatelessWidget {
   const CardDoCarrossel({Key? key, required this.texto, required this.imagem})
       : super(key: key);

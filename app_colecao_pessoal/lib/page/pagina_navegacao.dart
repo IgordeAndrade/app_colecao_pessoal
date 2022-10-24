@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class PaginaNavegacao extends StatefulWidget {
   const PaginaNavegacao({
     super.key,
-  });
+  }); // TODO: Quebra de linha Desnecessária
 
   @override
   State<PaginaNavegacao> createState() => _PaginaNavegacaoState();
@@ -26,6 +26,8 @@ class _PaginaNavegacaoState extends State<PaginaNavegacao> {
         onTap: alterarGuia,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+            //TODO: Quando o tema muda para "light", a cor do item selecionado 
+            // permanece a mesma, o que dificulta a visualização.
             icon: Icon(Icons.home),
             label: 'Home',
           ),

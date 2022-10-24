@@ -1,3 +1,4 @@
+// TODO: Isolamento Diferente do que é feito na Xports, mas bem feito.
 class Filme {
   Filme({
     required this.id,
@@ -32,6 +33,9 @@ class Filme {
     };
   }
 
+  // TODO: Na Xports, os atributos deveriam ser "final", e não deveriam ter
+  // seus valores atribuídos aqui, mas quando a classe "Usuário" for chamada.
+  
   Filme.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         titulo = json['titulo'],

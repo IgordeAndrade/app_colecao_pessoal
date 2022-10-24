@@ -2,6 +2,9 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/livro.dart';
 
+// TODO: Há dois repositórios (que na verdade são serviços), mas deveriam estar em um único arquivo.
+// TODO: O repositório está no layer errado.
+
 const chaveLivroLista = 'livro_list';
 
 class RepositorioDeLivros {

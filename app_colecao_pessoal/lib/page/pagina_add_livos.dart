@@ -28,6 +28,8 @@ class _PaginaAddLivrosState extends State<PaginaAddLivros> {
   final DateTime _data = DateTime.now();
   final TextEditingController _editoraController = TextEditingController();
   final TextEditingController _sinopseLController = TextEditingController();
+    // TODO: Pelo o que entendi, as variáveis abaixo não deveriam ser "nullable" 
+  // mas deveriam ser inicializadas como vazias.
   String? _generoL;
   int? _classificacaoL;
 
@@ -56,6 +58,8 @@ class _PaginaAddLivrosState extends State<PaginaAddLivros> {
       estrelasL!,
     );
   }
+
+  // TODO: Os campos poderiam ter sido isolados em classes diferentes.
 
   @override
   Widget build(BuildContext context) {
